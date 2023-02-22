@@ -1,5 +1,7 @@
 const express = require('express')
 
+/*Lo servicios requeridos se usan sin la etención .js
+ya que no está activada la acción po módulos*/
 const Service = require('./src/service')
 const app = express()
 const PORT = 3000
